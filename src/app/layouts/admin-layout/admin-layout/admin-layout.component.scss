@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+  }
+  
+  .nav {
+    display: flex;
+    flex-direction: column;
+    background-color: #eee;
+    padding: 10px;
+    width: 200px;
+  }
+  
+  .nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .nav li {
+    margin: 5px 0;
+  }
+  
+  .nav a {
+    color: #333;
+    text-decoration: none;
+  }
+  
+  
+  /* CSS cho các liên kết được chọn */
+  .nav a.router-link-active {
+    font-weight: bold;
+    color: #333;
+  }
